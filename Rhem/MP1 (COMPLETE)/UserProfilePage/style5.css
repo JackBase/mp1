@@ -1,0 +1,122 @@
+@charset "utf-8";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+@import url("normalize3.css");
+*{
+    margin: 0px;
+    padding: 0px; 
+    font-size: 12px; 
+}
+#container{
+    padding: 50px; color: black;
+}
+#profile{
+    max-width: 100%; height: 200px; padding-top: 50px; 
+}
+#ppic{
+    width: 200px; height: 200px; object-fit: fill; border-radius: 200px 200px 200px 200px; margin-top: -50px; 
+}
+#pName{
+    margin-left: 20px; font-size: 18px; font-weight: bold; 
+}
+#loc{
+    margin: 0px 0px 0px 20px; font-weight: bold; height: 30px; border: solid 1px black; text-align: center; padding-top: 5px; border-radius: 7px; width: 180px;
+}
+.cm{
+    width: 180px; height: 30px; border: solid 1px black; text-align: center; padding-top: 5px; border-radius: 7px; margin-top: 5px; color: black;
+}
+.Cm1{
+    margin: 0px 0px 0px 20px; font-weight: bold; 
+}
+a:link {
+    text-decoration: none; 
+}
+ul li {
+    display: inline-block; position: relative; 
+}
+#UserProfile{
+    position: absolute; margin-top: -150px; margin-left: 180px; 
+}
+#containerA{
+    padding: 5px 0px 5px 10px; max-width: 90%; height: 150px; border: solid 0.25px lightgray; margin-left: 30px; border-radius: 7px;
+}
+.containerB{
+    max-width: 110%; height: 40px; border: solid 0.25px lightgray; margin-left: -10px; margin-top: -5px; font-weight: 400;
+}
+.iconA{
+    padding: 5px; position: absolute; 
+}
+.text{
+    margin-left: 30px; padding: 3px; font-size: 15px; 
+}
+.text1{ 
+    position: relative; float: right; margin-right: 10px;
+}
+.iconB{
+    position: relative; float: right; margin-right: 10px;
+}
+.containerC{
+    margin-top: -32px;
+}
+#container1{
+    margin-top: 70px; text-align: center;
+}
+.icon1{
+    padding: 0px 80px 0px 100px;
+}
+.containerD{
+    max-width: 100%; height: 40px; border: solid 0.25px lightgray; margin-left: -2px; font-weight: 400; margin-top: 25px; border-radius: 7px;
+}
+#containerE{
+    padding: 5px 0px 5px 10px; max-width: 90%; height: 150px; border: solid 0.25px lightgray; margin-left: 30px; border-radius: 7px; margin-top: 50px;
+}
+#container2{
+    margin-top: 40px; text-align: center;
+}
+#container3{
+    max-width: 90%; height: 330px; border: solid 0.25px lightgray; margin-left: 30px; font-weight: 400; margin-top: 18px; border-radius: 7px; display: block; margin-bottom: 20px;
+}
+#containerF{
+    max-width: 110%; height: 40px; border: solid 0.25px lightgray; margin-top: -3px; font-weight: 400; border-radius: 7px;
+}
+#prdct{
+    padding: 5px; margin: 10px;
+}
+.product{
+    width: 200px; height: 265px; border: solid 0.25px lightgray; border-radius: 7px; margin-right: 10px;
+}
+.productImage{
+    height: 200px; max-width: 100%; padding: 5px 8px 10px 8px; object-fit: contain; border-radius: 17px;
+}
+.productText{
+    margin-left: 10px;
+}
+.productText1{
+    color: red; margin: 0px 0px 0px 5px; padding-bottom: 5px;
+}
+#cntr{
+    padding-bottom: 100px;
+}
+#container4{
+    max-width: 90%; height: 160px; margin-left: 30px; font-weight: 400; margin-top: 18px; display: block; margin-bottom: 20px; /* border-radius: 7px; border: solid 1px black; */
+}
+.containerG{
+    max-width: 110%; height: 60px; border: solid 0.25px lightgray; margin-top: -3px; font-weight: 400; border-radius: 7px; margin-bottom: 3px; padding-top: 13px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: black;
+    text-align: center; height: 40px;
+}
+#ftr{
+    margin-right: 100px; margin-top: 10px; 
+}
+.color{
+    color: white; font-size: 18px;
+}
+.clr{
+    color: black;
+}
